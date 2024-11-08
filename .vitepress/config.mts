@@ -7,20 +7,22 @@ import {withMermaid} from "vitepress-plugin-mermaid";
 export default withMermaid(
     defineConfigWithTheme<ThemeConfig>({
         extends: baseConfig,
-        title: "Tchooz - Documentation",
-        description: "A website to learn how to develop on Tchooz project",
+        title: "Template - Documentation",
+        description: "A website to learn how to develop on Template project",
         srcDir: 'src',
-        base: '/vitepress_test/',
+        base: '/vitepress-docs/',
         lang: 'en-GB',
+        /* FAVICON
         head: [
             ['link',
                 {rel: 'icon', href: './favicon.ico'}
             ]
         ],
+        */
 
         themeConfig: {
             // https://vitepress.dev/reference/default-theme-config
-            logo: '/logo_tchooz.svg',
+            // logo: '/logo.svg',
             nav: [
                 {
                     text: 'Docs',
@@ -28,7 +30,6 @@ export default withMermaid(
                         {text: 'Getting started', link: '/docs/getting-started'},
                         {text: 'Essentials', link: '/docs/essentials'},
                         {text: 'Glossary', link: '/docs/glossary'},
-                        {text: 'Migration from v6', link: '/docs/migration-from-v6'},
                     ]
                 },
                 {
@@ -37,17 +38,12 @@ export default withMermaid(
                         {
                             text: 'Resources',
                             items: [
-                                {text: 'Joomla!', link: 'https://manual.joomla.org/', target: '_blank'},
-                                {text: 'Storybook', link: 'https://emundus.github.io/storybook', target: '_blank'},
-                                {text: 'eMundus', link: 'https://emundus.fr', target: '_blank'}
+                                {text: 'External link', link: 'https://example.fr/', target: '_blank'}
                             ]
                         },
                         {
                             text: 'Dependencies',
                             items: [
-                                {text: 'Fabrikar', link: 'https://fabrikar.com/', target: '_blank'},
-                                {text: 'Gantry', link: 'https://gantry.org/', target: '_blank'},
-                                {text: 'Hikashop', link: 'https://www.hikashop.com/', target: '_blank'},
                                 {text: 'Dependencies status', link: '/ecosystem/dependencies-status'},
                             ]
                         },
@@ -74,75 +70,11 @@ export default withMermaid(
                     },
                     {
                         text: 'Essentials',
-                        items: [
-                            {
-                                text: 'Joomla!',
-                                items: [
-                                    {
-                                        text: 'Create a view',
-                                        link: 'docs/essentials/create-view'
-                                    },
-                                    {
-                                        text: 'Create a module',
-                                        link: 'docs/essentials/create-module'
-                                    },
-                                    {
-                                        text: 'Create a plugin',
-                                        link: 'docs/essentials/create-plugin'
-                                    },
-                                    {
-                                        text: 'Understanding database',
-                                        link: 'docs/essentials/database'
-                                    },
-                                    {
-                                        text: 'Event handling',
-                                        link: 'docs/essentials/event-handling'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Tailwind',
-                                link: 'docs/front/tailwind'
-                            },
-                            {
-                                text: 'Create a Vue component',
-                                link: 'docs/front/create-component'
-                            },
-                            {
-                                text: 'Wysiwyg',
-                                link: 'docs/front/wysiwyg'
-                            }
-                        ],
-                    },
-                    {
-                        text: 'Fabrik',
-                        items: [
-                            {
-                                text: 'Understanding Fabrik',
-                                link: 'docs/fabrik/understanding-fabrik'
-                            },
-                            {
-                                text: 'Create a plugin',
-                                link: 'docs/fabrik/create-plugin'
-                            },
-                            {
-                                text: 'Javascript',
-                                link: 'docs/fabrik/javascript'
-                            }
-                        ]
+                        items: []
                     },
                     {
                         text: 'Features',
-                        items: [
-                            {
-                                text: 'Booking',
-                                link: 'docs/features/booking'
-                            },
-                            {
-                                text: 'Workflow Builder',
-                                link: 'docs/features/workflow-builder'
-                            }
-                        ]
+                        items: []
                     },
                     {
                         text: 'Best Practices',
@@ -150,12 +82,7 @@ export default withMermaid(
                     },
                     {
                         text: 'Extra',
-                        items: [
-                            {
-                                text: 'Standalone installation',
-                                link: 'docs/extra/standalone-installation'
-                            },
-                        ]
+                        items: []
                     },
                 ],
                 '/ecosystem/': [
@@ -177,7 +104,7 @@ export default withMermaid(
             },
 
             socialLinks: [
-                {icon: 'github', link: 'https://github.com/emundus/tchooz'}
+                {icon: 'github', link: 'https://github.com/bhubinet/vitepress-docs'}
             ],
         },
         mermaid: {

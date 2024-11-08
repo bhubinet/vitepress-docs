@@ -3,12 +3,10 @@
 layout: home
 
 hero:
-  name: "Tchooz"
-  text: "by eMundus"
-  tagline: Online application management for Joomla 5.x.x
-  icon:
-    src: ./favicon.ico
-    alt: VitePress Carbon
+  name: "Template"
+  text: "by bhubinet"
+  tagline: Describe your project in a few words
+  icon: 🚀
   image:
     src: ./bg.png
     alt: Banner
@@ -21,13 +19,13 @@ hero:
       link: /docs/essentials
 
 features:
-  - title: Booking
-    details: This module enables managers to define events and booking slots for their applicants. It also allows applicants to book slots for those events.
+  - title: Feature 1
+    details: This is a brief description of the feature. You can use this section to highlight the main features of your project or product.
     icon: 📅
-    link: /docs/features/booking
-  - title: Workflow Builder
-    details: This module allows managers to create and manage workflows for their applicants. A workflow is a series of steps that an applicant must complete in order to apply for a position. Managers can define the steps, assign them to different users, and track the progress of each applicant through the workflow.
+    link: /docs/features/feature1
+  - title: Feature 2
+    details: This is a brief description of the feature. You can use this section to highlight the main features of your project or product.
     icon: 🔀
-    link: /docs/features/workflow-builder
+    link: /docs/features/feature2
 ---
 
