@@ -1,8 +1,10 @@
-# VitePress Carbon Template
+# VitePress Template for Documentation with Carbon Design System
+Welcome to the VitePress template built with the [Carbon Design System!](https://github.com/brenoepics/vitepress-carbon) This template provides a sleek and modern documentation website for your projects. Whether you're documenting a project, creating a knowledge base, or writing technical guides, this template offers a clean and professional layout to showcase your content.
 
-Welcome to the [VitePress Carbon](https://github.com/brenoepics/vitepress-carbon) Template repository!
-This template provides a sleek and modern documentation website built with [VitePress](https://vitepress.dev/), styled with Carbon Design System.
-Whether you're documenting a project, creating a knowledge base, or writing technical guides, this template offers a clean and professional layout to showcase your content.
+## Features
+- **Sleek Design**: The template is styled with the Carbon Design System, providing a modern and professional look.
+- **Mermaid Diagrams**: Easily create diagrams using the Mermaid syntax.
+- **Structured Layout**: Organize your documentation with a clear and structured layout.
 
 ## Getting Started
 
